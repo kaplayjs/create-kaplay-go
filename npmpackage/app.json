@@ -1,0 +1,14 @@
+{
+  "win32_x64": {
+    "url": "https://github.com/kaplayjs/create-kaplay-go/releases/download/1.0.0/create-kaplay.exe",
+    "executable": "create-kaplay.exe",
+    "hash": "635709e42937069ad3bd05df7f0b9d218a25897ab6e7d794f01cfbd164a8136f",
+    "name": "Windows x64"
+  },
+  "linux_x64": {
+    "url": "https://github.com/kaplayjs/create-kaplay-go/releases/download/1.0.0/create-kaplay",
+    "executable": "create-kaplay",
+    "hash": "029dc9a3ff8a042527cef52808456cfe44cd9be875b728900352463936fccae4",
+    "name": "Linux x64"
+  }
+}
