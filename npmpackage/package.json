@@ -12,7 +12,7 @@
     "dev": "node ."
   },
   "bin": {
-    "create-kaplay-go": "./src/index.js"
+    "create-kaplay-go": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
