@@ -1,0 +1,55 @@
+{
+  "$schema": "https://unpkg.com/makeman@*/help.schema.json",
+  "name": "Create KAPLAY Go",
+  "styles": {
+    "titleFont": "Small",
+    "titleColor": {
+      "r": 4,
+      "g": 240,
+      "b": 106
+    },
+    "titleBackground": {
+      "r": 69,
+      "g": 69,
+      "b": 69
+    }
+  },
+  "targets": {
+    "build": {
+      "description": "Build the go project",
+      "usage": {
+        "example": "make build BUILD_FLAGS=something",
+        "variables": [
+          {
+            "name": "BUILD_FLAGS",
+            "description": "The flags to pass to the build"
+          }
+        ]
+      }
+    },
+    "dev": {
+      "description": "Run the go project in development mode",
+      "usage": {
+        "example": "make dev FLAGS=something",
+        "variables": [
+          {
+            "name": "FLAGS",
+            "description": "The command line options to pass to the app"
+          }
+        ]
+      }
+    },
+    "help": {
+      "description": "Show this help message",
+      "usage": {
+        "example": "make help TARGET=something",
+        "variables": [
+          {
+            "name": "TARGET",
+            "description": "The target to show help for"
+          }
+        ]
+      }
+    }
+  }
+}
